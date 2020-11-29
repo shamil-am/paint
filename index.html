@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Drawing with mouse events</h1>
+    <div style="display: flex;">
+      <input type="radio" name="btn" id="red" />
+      <label for="red"
+        ><div
+          style="
+            height: 1rem;
+            width: 1rem;
+            border: 2px solid red;
+            border-radius: 100%;
+          "
+        ></div
+      ></label>
+      <input type="radio" name="btn" id="black" checked />
+      <label for="black"
+        ><div
+          style="
+            height: 1rem;
+            width: 1rem;
+            border: 2px solid black;
+            border-radius: 100%;
+          "
+        ></div
+      ></label>
+      <input type="radio" name="btn" id="green" />
+      <label for="green"
+        ><div
+          style="
+            height: 1rem;
+            width: 1rem;
+            border: 2px solid green;
+            border-radius: 100%;
+          "
+        ></div
+      ></label>
+      <input type="radio" name="btn" id="blue" />
+      <label for="blue"
+        ><div
+          style="
+            height: 1rem;
+            width: 1rem;
+            border: 2px solid blue;
+            border-radius: 100%;
+          "
+        ></div
+      ></label>
+    </div>
+
+    <br />
+    <canvas id="myPics" width="560" height="360"></canvas>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

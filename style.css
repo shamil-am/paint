@@ -1,0 +1,11 @@
+canvas {
+  border: 1px solid black;
+  width: 560px;
+  height: 360px;
+}
+input {
+  display: none;
+}
+input[type="radio"]:checked + label div {
+  background-color: black;
+}
